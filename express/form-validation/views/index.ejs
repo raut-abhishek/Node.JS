@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Express</title>
+    <link rel="shortcut icon" href="./QuantamSky.svg" type="image/x-icon">
+    <title>QuantumSky</title>
 </head>
 <body>
-    <form action="/get-form-deta"  method="post">
-        <input 
-        type="text"
-        placeholder="Enter username"
-        name="username"
-        >
-        <input 
-        type="text"
-        placeholder="Enter email"
-        name="email"
-        >
-        <input 
-        type="password"
-        placeholder="Enter password"
-        name="password"
-        >
+    <nav>
+        <div class="logo">QuantumSky</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <h1>Welcome to QuantumSky</h1>
+        <p>QuantumSky delivers a secure, seamless space in the cloud where your data is protected, your ideas are accessible anywhere, and your vision scales without limits.</p>
+        <button onclick="window.location.href='/register'">Get Started</button>
+    </section>
 
-        <button>Submit Form</button>
-    </form>
 
     <script src="/assets/index.js"></script>
 </body>
